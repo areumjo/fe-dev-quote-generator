@@ -1,0 +1,77 @@
+.App {
+  text-align: left;
+  width: 900px;
+  margin: 50px auto;
+}
+
+.random {
+  margin-left: 90%;
+  cursor: pointer;
+}
+
+.quote {
+  width: 630px;
+  font-size: 36px;
+  line-height: 43.2px;
+  font-weight: 500;
+  border-left: 8px #f7df94 solid;
+  padding-left: 100px;
+  margin: 100px 0;
+}
+
+.author {
+  color: #4f4f4f;
+  font-size: 24px;
+  line-height: 28.18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.author-hover-box {
+  padding: 25px 0 25px 30px;
+  margin: 0 70px;
+  width: 630px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.author-hover-box:hover {
+  background-color: #333333;
+  cursor: pointer;
+}
+
+.author-hover-box:hover .author {
+  color: #f2f2f2;
+}
+
+.author-hover-box:hover .genre {
+  color: #828282;
+}
+
+.genre {
+  font-size: 14px;
+  line-height: 16.44px;
+  font-weight: 500;
+  color: #828282;
+}
+
+.click-emoji {
+  font-size: 20px;
+  margin: 40px 20px;
+}
+
+.author-name {
+  padding-left: 108px;
+  font-size: 36px;
+  color: #333333;
+  line-height: 42.26px;
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 14px;
+  color: #828282;
+}
